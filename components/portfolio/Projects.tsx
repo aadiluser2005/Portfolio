@@ -24,6 +24,7 @@ import {
   SiRedis,
   SiRabbitmq,
   SiBootstrap,
+  SiMapbox,
 } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 
@@ -49,6 +50,7 @@ const techIcons: Record<
 Redis: { icon: SiRedis, color: "#DC382D" },
 RabbitMQ: { icon: SiRabbitmq, color: "#FF6600" },
 Bootstrap: { icon: SiBootstrap, color: "#7952B3" },
+MapBox: { icon: SiMapbox, color: "#4264FB" },
 }
 
 interface Screenshot {
@@ -124,7 +126,7 @@ const ipdProject: ProjectType = {
     "Patient Record Search",
     "Print-Ready Documents",
   ],
-  tech: ["React", "Node.js", "Express", "MongoDB","Zustand", "Tailwind"],
+  tech: ["React", "Node.js", "Express", "MongoDB","Zustand", "Tailwind","JavaScript"],
   github: "https://github.com/aadiluser2005/IPD-management",
   demo: "https://ipd-management.vercel.app",
   accent: "emerald",
@@ -164,7 +166,7 @@ const wanderlustProject: ProjectType = {
     "Mapbox Integration",
     "Category Filtering",
   ],
-  tech: ["Node.js", "Express.js", "MongoDB", "EJS", "CSS","Bootstrap", "JavaScript"],
+  tech: ["Node.js", "MongoDB", "EJS", "MapBox","CSS","Bootstrap", "JavaScript"],
   github: "https://github.com/aadiluser2005/WanderLust",
   demo: "https://wanderlust-p4il.onrender.com/listings",
   accent: "rose",

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import {
   SiReact, SiNextdotjs, SiJavascript, SiTypescript, SiHtml5, SiCss,
   SiTailwindcss, SiRedux, SiNodedotjs, SiExpress, SiJsonwebtokens,
-  SiMongodb, SiMysql, SiGit, SiGithub, SiPostman,
+  SiMongodb, SiMysql, SiGit, SiGithub, SiPostman,SiRabbitmq,SiRedis,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { Section } from "./Section";
@@ -14,9 +14,9 @@ const groups = [
     title: "Frontend",
     items: [
       { name: "React", icon: SiReact, color: "#61DAFB" },
-      { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
+      // { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
       { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
-      { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+      // { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
       { name: "HTML", icon: SiHtml5, color: "#E34F26" },
       { name: "CSS", icon: SiCss, color: "#1572B6" },
       { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
@@ -30,6 +30,8 @@ const groups = [
       { name: "Express", icon: SiExpress, color: "#ffffff" },
       { name: "REST APIs", icon: SiNodedotjs, color: "#68A063" },
       { name: "JWT Auth", icon: SiJsonwebtokens, color: "#d63aff" },
+      { name: "RabbitMQ", icon: SiRabbitmq, color: "#FF6600" },
+   
     ],
   },
   {
@@ -37,6 +39,7 @@ const groups = [
     items: [
       { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
       { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+         { name: "Redis", icon: SiRedis, color: "#DC382D" },
     ],
   },
   {

@@ -12,6 +12,8 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiDocker,
+  SiJavascript,
+  SiBootstrap
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -25,6 +27,8 @@ const techIcons: Record<string, { icon: React.ElementType; color: string }> = {
   TypeScript: { icon: SiTypescript, color: "#3178C6" },
   Docker: { icon: SiDocker, color: "#2496ED" },
   AWS: { icon: FaAws, color: "#FF9900" },
+  JavaScript:{icon:SiJavascript, color:"#F7DF1E"},
+  Bootstrap: { icon: SiBootstrap, color: "#7952B3" },
 };
 
 const experiences = [
@@ -50,7 +54,7 @@ const experiences = [
       "Designed REST APIs and backend workflows for appointment booking and hospital management systems.",
       "Implemented JWT-based access control, database integrations, and production-ready backend architecture.",
     ],
-    tech: ["React", "TypeScript", "Node.js", "MongoDB"],
+    tech: ["React", "JavaScript", "Node.js","Bootstrap", "MongoDB"],
   },
 ];
 
